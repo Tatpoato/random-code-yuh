@@ -15,7 +15,7 @@ if will == "yes":
     headers = {"Accept": "application/json"}
     response = requests.get(url, headers=headers)
 
-# REMEMBER TO USE AN OPEN METEO THINGY WITH YOUR OWN CORDINATES FOR THIS ONE GO TO https://open-meteo.com/en/docs AND CONFIGURE THEN PRINT IT AT LINE 13 (inside the quotes ofc)
+# REMEMBER TO USE AN OPEN METEO THINGY WITH YOUR OWN CORDINATES FOR THIS ONE GO TO https://open-meteo.com/en/docs AND CONFIGURE THEN PRINT IT AT LINE 13 (inside the quotes ofc) (for the things you select just select everything under daily weather variables and hourly weather variables)
 
 
     if response.ok:
