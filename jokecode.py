@@ -4,8 +4,15 @@ url = "https://icanhazdadjoke.com/"
 headers = {"Accept": "application/json"}
 response = requests.get(url, headers=headers)
 
-if response.ok:
+will = input("Do you want to hear a joke (yes/no):  ").lower()
 
-    data = response.json()
+if will == "yes":
+    if response.ok:
 
-    print(data["joke"])
+        data = response.json()
+
+        print(data["joke"])
+elif will == "no":
+    print("D:")
+else:
+    print("huh")
