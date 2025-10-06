@@ -29,9 +29,7 @@ for question in questions:
     questionnum += 1
 
 
-print("----------------------")
-print("-------RESULTS!-------")
-print("----------------------")
+print("----------------------\n", "-------RESULTS!-------\n", "----------------------\n", sep="")
 print(f"You got {score}/5 Correct!!")
 if score == 5:
     print("Well done!!")
