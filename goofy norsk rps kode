@@ -105,8 +105,18 @@ while True:
     if valg == "stop":
 
         break
-
-    elif valg == "ctrl" or "controls" or "cntrl" or "cntrls" or "cntrs" or "control":
+    elif valg == "halloween":
+        min = 66
+        max = 68
+    elif valg == "st" or valg == "1":
+        vvalg = "Stein"
+    elif valg == "sa" or valg == "2":
+        vvalg = "Saks"
+    elif valg == "pa" or valg == "3":
+        vvalg = "Papir"
+    elif valg == "stop":
+        break
+    elif valg == "ctrl" or valg == "controls" or valg == "cntrl" or valg == "cntrls" or valg == "cntrs" or valg == "control":
         print("CONTROLS:")
         print("1 eller ST for Stein")
         print("2 eller SA for Saks")
@@ -114,22 +124,12 @@ while True:
         print("stop for stopping")
         print("Lykke til!")
         time.sleep(3)
-    elif valg == "halloween":
-        min = 66
-        max = 68
-    elif valg == "st" or "1":
-        vvalg = "Stein"
-    elif valg == "sa" or "2":
-        vvalg = "Saks"
-    elif valg == "pa" or "3":
-        vvalg = "Papir"
-    elif valg == "stop":
-        break
     else:
         vvalg = ""
         valg = ""
         print("huh hva hø")
         a = True
+
     vvakg = vvalg.lower()
 
     winmot = wincon.get(vvakg)
