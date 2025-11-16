@@ -61,3 +61,4 @@ elif will == "no":
     print("Hey, that is mean! The whole code is about the weather.")
 else:
     print("Haha, you missed your chance to see the weather!")
+# not my code at all btw
