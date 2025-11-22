@@ -127,3 +127,4 @@ if pokeinfo:
         stat_name = stat["stat"]["name"].capitalize()
         stat_value = stat["base_stat"]
         print(f"  {stat_name}: {stat_value}")
+hanuighighug = input("done??  ")
